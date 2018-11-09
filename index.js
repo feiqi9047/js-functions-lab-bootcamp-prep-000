@@ -13,10 +13,10 @@ happyHolidaysTo('you')
 function happyHolidaysTo(holiday, name){
   return 'Happy ${holiday}, ${name}!'
 }
-happyHolidaysTo("Independence Day", "you")
+happyHolidaysTo('Independence Day', 'you')
 
 
 function holidayCountdown(days, holiday){
   return 'It\'s ${days} days until ${holiday}!'
 }
-holidayCountdown(20, "Mother's Day")
+holidayCountdown(20, 'Mother's Day')
